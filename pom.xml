@@ -28,6 +28,7 @@
 
         <!-- dependencies -->
         <grpc.version>0.15.0</grpc.version>
+        <slf4j.version>1.7.21</slf4j.version>
 
         <!-- should be in sync with protobuf grpc dependencies -->
         <protobuf.version>3.0.0-beta-3</protobuf.version>
@@ -59,6 +60,11 @@
             <artifactId>grpc-stub</artifactId>
             <version>${grpc.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
@@ -78,6 +84,7 @@
             <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
         <!-- https://mvnrepository.com/artifact/com.esotericsoftware.yamlbeans/yamlbeans -->
         <dependency>
             <groupId>com.esotericsoftware.yamlbeans</groupId>
@@ -85,6 +92,14 @@
             <version>1.09</version>
         </dependency>
 
+=======
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>test</scope>
+        </dependency>
+>>>>>>> 65c2f913f59ab35c928d3a7a9d23243371d02e26
     </dependencies>
 
     <build>
