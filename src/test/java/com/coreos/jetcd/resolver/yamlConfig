@@ -1,0 +1,4 @@
+endPoints:
+- www.google.com
+- www.facebook.com
+dialTimeout: 1000
