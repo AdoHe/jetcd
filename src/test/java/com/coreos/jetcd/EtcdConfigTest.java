@@ -25,7 +25,7 @@ public class EtcdConfigTest {
         yamlMap = (Map)yamlReader.read();
     }
 
-    /**
+    /**R
      * Test on getting endPoints of LIST type.
      * @throws Exception
      */
@@ -51,5 +51,7 @@ public class EtcdConfigTest {
     public void testConfigFromFile() throws Exception {
 
     }
+
+
 
 }

@@ -1,4 +1,4 @@
-package com.coreos.jetcd.resolver;
+package com.coreos.jetcd;
 
 /**
  *
